@@ -1,0 +1,8 @@
+import { wedding,eventTitle,eventDescription } from './wedding-config';
+export const utcStamp=(date:string)=>new Date(date).toISOString().replace(/[-:]/g,'').replace(/\.\d{3}/,'');
+const location=`${wedding.venue.name}, ${wedding.venue.address}`;
+const details=`${eventDescription}\n${wedding.venue.maps}`;
+export function calendarLinks(){return {google:'https://calendar.google.com/calendar/render?'+new URLSearchParams({action:'TEMPLATE',text:eventTitle,dates:`${utcStamp(wedding.reception.start)}/${utcStamp(wedding.reception.end)}`,details,location,ctz:wedding.reception.timezone}),outlook:'https://outlook.live.com/calendar/0/deeplink/compose?'+new URLSearchParams({path:'/calendar/action/compose',rru:'addevent',subject:eventTitle,startdt:new Date(wedding.reception.start).toISOString(),enddt:new Date(wedding.reception.end).toISOString(),body:details,location})};}
+const escape=(s:string)=>s.replace(/\\/g,'\\\\').replace(/\r?\n/g,'\\n').replace(/;/g,'\\;').replace(/,/g,'\\,');
+export function fold(line:string){let out='',bytes=0;for(const ch of line){const n=Buffer.byteLength(ch);if(bytes+n>75){out+='\r\n ';bytes=1;}out+=ch;bytes+=n;}return out;}
+export function calendarFile(){return ['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//Mishal and Sidhra//Wedding Invitation//EN','CALSCALE:GREGORIAN','METHOD:PUBLISH','BEGIN:VEVENT','UID:mishal-sidhra-reception-20261229@wedding','DTSTAMP:20261019T000000Z',`DTSTART:${utcStamp(wedding.reception.start)}`,`DTEND:${utcStamp(wedding.reception.end)}`,`SUMMARY:${escape(eventTitle)}`,`DESCRIPTION:${escape(details)}`,`LOCATION:${escape(location)}`,`URL:${wedding.websiteUrl}`,'STATUS:CONFIRMED','SEQUENCE:0','END:VEVENT','END:VCALENDAR'].map(fold).join('\r\n')+'\r\n';}

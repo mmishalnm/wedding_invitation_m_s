@@ -1,0 +1,8 @@
+node_modules
+.next
+.env*
+!.env.example
+*.pem
+*.p12
+*.key
+*.tsbuildinfo

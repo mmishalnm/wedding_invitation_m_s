@@ -1,0 +1,38 @@
+{
+  "name": "mishal-sidhra-invitation",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build --webpack",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test tests/*.test.ts"
+  },
+  "dependencies": {
+    "next": "16.4.2",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "motion": "^12.0.0",
+    "lucide-react": "^0.468.0",
+    "qrcode": "^1.5.4",
+    "passkit-generator": "^3.5.0",
+    "server-only": "^0.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.0",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@types/qrcode": "^1.5.5",
+    "tailwindcss": "^4.1.0",
+    "@tailwindcss/postcss": "^4.1.0",
+    "tsx": "^4.20.0"
+  },
+  "overrides": {
+    "joi": "17.13.8"
+  }
+}
