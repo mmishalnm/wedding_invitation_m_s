@@ -1,8 +1,8 @@
 export const wedding = {
-  couple: {groom:'Mohammed Mishal N. M.',bride:'Sidhra',short:'Mohammed Mishal & Sidhra',initials:'M & S'},
+  couple: {groom:'Mohammed Mishal N M',groomDisplay:'Mohammed Mishal N M',bride:'Sidhra',short:'Mohammed Mishal N M & Sidhra',initials:'M & S'},
   hosts:'MR. MUNAVIRUDHEEN N M & MRS. RAFEENA P K',
   hostAddress:'Nambipunnilath House, Padiyoor P.O., Thrissur – 680688',
-  groomFamily:[{names:'Mr. Mohammed N K (Late) & Mrs. Kadheeja (Late)',address:'Nambipunnilath House, Padiyoor, Irinjalakuda'},{names:'Mr. Kareem (Late) & Mrs. Aleema',address:'Pottek attil House, Edayakkunnam, Cheranalloor'}],
+  groomFamily:[{names:'Mr. Mohammed N K (Late) & Mrs. Kadheeja (Late)',address:'Nambipunnilath House, Padiyoor, Irinjalakuda'},{names:'Mr. Kareem (Late) & Mrs. Aleema',address:'Pottekattil House, Edayakkunnam, Cheranalloor'}],
   brideFamily:{names:'Mr. Nasar & Mrs. Sufeera',address:'Kodamangalthel House, Veliyankode, Malapuram'},
   nikah:{date:'2026-12-27',hijri:'18 Rajab 1448 AH',locallyConfirmed:false},
   reception:{start:'2026-12-29T11:30:00+05:30',end:'2026-12-29T14:30:00+05:30',timezone:'Asia/Kolkata'},
@@ -10,7 +10,7 @@ export const wedding = {
   regards:['Shameer Musthafa','Fathima Maharban','Aysha','Aami'],contacts:['+91 9846074348','+91 9645528280'],
   websiteUrl:process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000',
   audioUrl:process.env.NEXT_PUBLIC_AUDIO_URL || '',
-  theme:{emerald:'#123D32',gold:'#C5A46D',ivory:'#F8F4EA',champagne:'#E9DCC6',sage:'#B9C6B6'},
+  theme:{emerald:'#4A0E0A',gold:'#D4AF37',ivory:'#FFF4DF',champagne:'#E8C785',sage:'#B88645'},
 };
 export const eventTitle = `Wedding Reception – ${wedding.couple.short}`;
 export const eventDescription = `You are cordially invited to celebrate the wedding reception of ${wedding.couple.groom} and ${wedding.couple.bride}.`;
