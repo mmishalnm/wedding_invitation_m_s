@@ -45,7 +45,9 @@ Google Fonts load with `display=swap` and local fallback fonts. The venue previe
 - `public/wallet`: real PNG assets at Wallet-supported sizes.
 - `tests/calendar.test.ts`: timezone, provider, folding and input tests.
 
-## Apple Wallet setup
+## Apple Wallet setup (optional, hidden)
+
+The guest-facing Apple Wallet button and promotional text have been removed. Add to Calendar remains available without an Apple Developer membership. The signing backend is retained only for possible future activation.
 
 See **APPLE-WALLET.md** for certificate instructions. Without credentials the endpoint returns 503 with a calendar fallback; it never delivers a fake pass. An Apple device and valid Apple-issued certificates are required for the final installation check. The visual Wallet control is a styled text/icon button; replace it with Apple's official downloadable localized badge if brand approval requires the official badge artwork.
 
