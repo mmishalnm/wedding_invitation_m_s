@@ -39,7 +39,7 @@ Optional music can be enabled with `NEXT_PUBLIC_AUDIO_URL`. Music never autoplay
 
 ## Key files
 
-- `src/components/Invitation.tsx`: welcome, watercolor hero, family details, countdown, save-the-date calendar, directions, QR, sharing and closing sections.
+- `src/components/Invitation.tsx`: cinematic welcome, watercolor hero, family details, countdown, save-the-date calendar, directions, QR, sharing and closing sections.
 - `src/lib/wedding-config.ts`: centralized wedding content and theme values.
 - `src/lib/calendar.ts`: provider links and standards-compliant `.ics` generation.
 - `src/app/api/calendar/route.ts`: downloadable calendar event.

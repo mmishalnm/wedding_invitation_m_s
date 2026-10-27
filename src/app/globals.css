@@ -212,3 +212,8 @@ body{background:#fffdf9!important}.welcome{background-image:radial-gradient(circ
 /* Keep host and family addresses readable on the ivory invitation paper. */
 .intro>.address{color:#68635c!important;opacity:1!important;visibility:visible!important;text-shadow:none!important}
 .intro .family-relation,.intro .family-address,.intro .family-and{color:#77736d!important}
+
+/* Keep the hero editorial and avoid repeating the couple names beside the wreath. */
+.hero-invitation-title{font:400 clamp(58px,7vw,94px)/.88 var(--serif);letter-spacing:-.035em;color:#30302f;margin:0 0 28px}.hero-invitation-title em{display:inline-block;font:400 1em/1 var(--script);color:#b07819;letter-spacing:0;margin-left:42px}.hero-welcome{max-width:460px;color:#68635c;font:19px/1.55 var(--serif);margin:0 0 28px}
+@media(max-width:700px){.hero-invitation-title{font-size:60px}.hero-invitation-title em{margin-left:0}.hero-welcome{margin-left:auto;margin-right:auto;font-size:18px}}
+

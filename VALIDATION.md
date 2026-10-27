@@ -10,10 +10,11 @@
 ## Visual and functional scope
 
 - Warm-white stationery, antique-gold typography, sage-and-coral watercolor florals and save-the-date calendar based on the newly supplied invitation references.
-- Watercolor wreath opening and hero, family details in the invitation letter, Nikah announcement, reception card and animated countdown.
+- Cinematic paper opening with first-light reveal, watercolor wreath, automatic opening, scroll-to-open and locked background scrolling.
+- Watercolor hero, family details in the invitation letter, quiet Nikah note, reception card and animated countdown.
 - Google, Outlook and Apple/standard `.ics` calendar actions.
 - Google Maps directions, location QR and copy-location action without a paid Maps API.
-- WhatsApp, copied link, native share, invitation QR download and high-resolution invitation-card download.
+- Native share, visible location QR and the newly supplied high-resolution invitation-card download.
 - `?guest=GuestName` personalization remains sanitized and optional.
 - Apple Wallet and its credential/dependency path were removed.
 
