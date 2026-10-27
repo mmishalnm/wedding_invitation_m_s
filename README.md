@@ -45,7 +45,8 @@ Optional music can be enabled with `NEXT_PUBLIC_AUDIO_URL`. Music never autoplay
 - `src/app/api/calendar/route.ts`: downloadable calendar event.
 - `src/app/opengraph-image.tsx`: generated white, sage and antique-gold social preview.
 - `public/images/watercolor-wreath.png`: transparent watercolor botanical wreath generated for the website.
-- `public/images/wedding-invitation-card.png`: downloadable high-resolution invitation card supplied by the family.
+- `public/images/wedding-invitation-card.jpeg`: downloadable full-detail invitation card supplied by the family.
+- `public/images/wedding-invitation-cover.jpeg`: matching save-the-date cover reference supplied by the family.
 - `tests/calendar.test.ts`: timezone, provider-link, UTF-8 folding and guest sanitization checks.
 
 The project intentionally contains no Apple Wallet implementation, paid API, or commercial credential requirement. Apple Calendar is supported through the standard `.ics` download.
