@@ -9,8 +9,8 @@
 
 ## Visual and functional scope
 
-- Royal maroon, burgundy, dark-wine, metallic-gold and ivory theme based on the supplied physical invitation.
-- Cinematic arch opening, hanging lantern motion, gold particles, reusable illustrated couple, family details in the invitation letter, Nikah announcement, reception card and animated countdown.
+- Warm-white stationery, antique-gold typography, sage-and-coral watercolor florals and save-the-date calendar based on the newly supplied invitation references.
+- Watercolor wreath opening and hero, family details in the invitation letter, Nikah announcement, reception card and animated countdown.
 - Google, Outlook and Apple/standard `.ics` calendar actions.
 - Google Maps directions, location QR and copy-location action without a paid Maps API.
 - WhatsApp, copied link, native share, invitation QR download and high-resolution invitation-card download.

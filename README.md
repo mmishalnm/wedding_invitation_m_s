@@ -1,6 +1,6 @@
 # Mohammed Mishal & Sidhra — Wedding Invitation
 
-A production-ready Next.js invitation inspired by the family's physical maroon-and-gold wedding card. It includes a cinematic Islamic arch opening, a consistent bride-and-groom illustration, family and Nikah details, timezone-safe countdown, calendar exports, venue directions, QR codes, personalized guest names, sharing controls and a downloadable high-resolution invitation image.
+A production-ready Next.js invitation inspired by the family's white watercolor stationery. It uses warm-white paper, antique-gold typography, sage-and-coral botanical wreaths, a save-the-date calendar, family and Nikah details, timezone-safe calendar exports, venue directions, optional guest personalization, native sharing and a downloadable invitation image.
 
 ## Run locally
 
@@ -39,12 +39,12 @@ Optional music can be enabled with `NEXT_PUBLIC_AUDIO_URL`. Music never autoplay
 
 ## Key files
 
-- `src/components/Invitation.tsx`: welcome, illustrated couple, family details, countdown, QR, calendar, directions, sharing and closing sections.
+- `src/components/Invitation.tsx`: welcome, watercolor hero, family details, countdown, save-the-date calendar, directions, QR, sharing and closing sections.
 - `src/lib/wedding-config.ts`: centralized wedding content and theme values.
 - `src/lib/calendar.ts`: provider links and standards-compliant `.ics` generation.
 - `src/app/api/calendar/route.ts`: downloadable calendar event.
-- `src/app/opengraph-image.tsx`: generated maroon-and-gold social preview.
-- `public/images/wedding-couple.png`: reusable transparent couple illustration generated for this project.
+- `src/app/opengraph-image.tsx`: generated white, sage and antique-gold social preview.
+- `public/images/watercolor-wreath.png`: transparent watercolor botanical wreath generated for the website.
 - `public/images/wedding-invitation-card.png`: downloadable high-resolution invitation card supplied by the family.
 - `tests/calendar.test.ts`: timezone, provider-link, UTF-8 folding and guest sanitization checks.
 

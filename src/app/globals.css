@@ -84,3 +84,131 @@ h2{color:#fff4df}h2 em,.eyebrow,.section-marker,.monogram{color:#e8c785}.arabic{
 .location-info>p[role="status"]{margin-top:12px;margin-bottom:0;max-width:100%;color:#e8c785}
 .location-info>p[role="status"]:empty{display:none}
 @media(max-width:700px){.location-share-actions{flex-direction:column;align-items:center}.location-share-actions .button{width:100%;max-width:300px}}
+
+/* 2026 watercolor stationery redesign */
+:root{--ink:#30302f;--muted:#77736d;--gold:#b58627;--line:#b7975738;--paper:#fffdf9;--champagne:#f5efe4;--rose:#e7a69c;--sage:#66806d;--emerald:#234f43;--ivory:#fffdf9}
+body{background:#f4f1eb;color:var(--ink)}body:before{opacity:.025}
+h2{font-family:var(--serif);font-weight:400;letter-spacing:-1px}.eyebrow{color:#8d6c2b}.section{background:#fffdf9}.button{background:#b88a2d;border-color:#b88a2d;color:#fff;border-radius:999px;box-shadow:0 8px 24px #87661d18}.button:hover{background:#9d7220}.outline{background:#fff;color:#7f6227;border-color:#b88a2d}.outline:hover{background:#f8f1df;color:#735617}.ornament{color:#b88a2d}.ornament span{background:#c7a85e66}
+.welcome{background:#ece8df;padding:28px}.welcome:before,.welcome:after{display:none}.welcome-frame{width:min(780px,100%);min-height:min(820px,calc(100svh - 56px));background:#fff;box-shadow:0 25px 80px #3d392d26,inset 0 0 0 1px #c6b16e66;padding:56px 36px;overflow:hidden}.welcome-frame:before{content:'';position:absolute;width:min(560px,90%);aspect-ratio:1;background:url('/images/watercolor-wreath.png') center/contain no-repeat;opacity:.18;inset:50% auto auto 50%;transform:translate(-50%,-49%);pointer-events:none}.welcome-frame>*{position:relative;z-index:1}.welcome-monogram{color:#b58627}.crescent{display:none}.welcome .arabic{color:#4a5b4e}.welcome h1{color:#b27d1f;font-size:clamp(43px,6vw,78px);max-width:700px}.welcome h1 em{color:#b9aa84}.wax-seal{background:#ddb02e;color:#fff6d8;box-shadow:0 7px 18px #6e541f38,inset 0 0 0 4px #c99d24,inset 0 0 0 5px #f7d97880}.welcome>.floral,.welcome-lantern,.particles{display:none}
+.masthead{background:#fff;margin:0;padding:22px max(5%,calc((100vw - 1240px)/2));border-color:#c8b16f55}.masthead .monogram{color:#b58627}.masthead span{color:#87837c}
+.hero{min-height:820px;background:#fff!important;color:#30302f!important;grid-template-columns:.9fr 1.1fr;gap:60px;padding-top:70px;padding-bottom:80px}.hero:before{content:'YOU ARE INVITED';position:absolute;left:14px;top:50%;writing-mode:vertical-rl;transform:translateY(-50%) rotate(180deg);font:300 clamp(35px,5vw,70px)/1 var(--serif);letter-spacing:.12em;color:#d5d2cb}.hero-prelude,.guest{color:#a67621}.couple h1{color:#30302f!important;font:400 clamp(50px,5.5vw,80px)/1.05 var(--serif);word-spacing:.08em}.couple h1>span:last-child{color:#b07819!important;text-shadow:none}.couple-and{color:#d2c29e}.hero-date{color:#55514d}.hero-date i{background:#b58627}.scroll-cue{color:#8a6828;border-color:#b5862755}.stationery-wreath{position:relative;width:min(600px,100%);aspect-ratio:1;margin:auto}.stationery-wreath>img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;animation:wreath-float 8s ease-in-out infinite}.wreath-copy{position:absolute;inset:20% 19%;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}.wreath-copy span{font:italic 27px var(--script);color:#a8761d;margin-bottom:16px}.wreath-copy strong{font:400 clamp(29px,3.4vw,50px)/1.03 var(--script);color:#b07819;max-width:330px}.wreath-copy em{font:52px/1 var(--serif);color:#d8c99e;margin:-4px 0}.art-footnote{color:#6f6c67;font:20px var(--serif);margin-top:10px}
+.intro{background:#fffdf9;border-color:#c7ac6650;isolation:isolate}.intro:after{content:'';position:absolute;right:-145px;bottom:-160px;width:430px;aspect-ratio:1;background:url('/images/watercolor-wreath.png') center/contain no-repeat;opacity:.23;z-index:-1}.intro .arabic{color:#385d4f}.hosts{color:#30302f}.invitation-copy{color:#4e4b47}.invitation-family{max-width:980px;margin:45px auto 0;padding:48px;border:1px solid #c4a45a73;background:#fff;box-shadow:0 18px 55px #5d513314}.family-person h3{color:#b07819;font-family:var(--script);font-size:48px}.family-relation{color:#858077}.family-names{color:#343331}.family-address{color:#7d7972}.union-divider>span{color:#b58627}
+.nikah{background:#f8f2e5;border-radius:0;margin:0;border-top:1px solid #c6aa6545;border-bottom:1px solid #c6aa6545}.nikah:after{content:'';position:absolute;inset:24px;border:1px solid #c6aa6535;pointer-events:none}.nikah-floral{opacity:.34}.moon{color:#b58627}.nikah h2{color:#343331}
+.reception{margin-top:0;background:#fff!important;color:#30302f!important;grid-template-columns:.9fr 1.1fr;border-bottom:1px solid #c6aa6545}.reception:before{content:'';position:absolute;left:-190px;top:-190px;width:430px;aspect-ratio:1;background:url('/images/watercolor-wreath.png') center/contain no-repeat;opacity:.18}.reception .section-marker,.reception h2 em{color:#b58627}.reception-heading>p{color:#77736d}.event-card{background:#fffdf9;color:#30302f;border:1px solid #c4a45a7a;border-radius:0;box-shadow:0 20px 60px #51431e18}.event-card:before{border-color:#c4a45a55;border-radius:0}.event-card-top,.date-display strong{color:#b07819}.event-time{border-color:#c4a45a4d}.count-wrap{border-color:#c4a45a52}.count-wrap>.eyebrow,.countdown small{color:#8a7445}.countdown>div{border-color:#c4a45a45}.countdown span{color:#b07819}
+.save-date{background:#fff;display:grid;grid-template-columns:.8fr 1.2fr;align-items:center;border-bottom:1px solid #c6aa6545}.save-actions{width:100%;max-width:560px;margin-left:auto}.calendar-motif{width:100%;max-width:430px;background:#fff;padding:28px 32px;border:1px solid #b79d644d;box-shadow:0 14px 45px #59491812}.calendar-title{display:flex;justify-content:space-between;align-items:end;border-bottom:1px dotted #5f5c57;padding:0 10px 12px;margin-bottom:16px}.calendar-title em{font:34px var(--script);color:#2f2e2d}.calendar-title span{font:31px var(--serif)}.calendar-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:5px}.calendar-grid span{display:grid;place-items:center;aspect-ratio:1;font-size:14px;font-weight:500}.calendar-grid span:nth-child(-n+7){font-weight:700;font-size:11px}.calendar-grid .selected{position:relative;color:#c1272d;font-weight:700}.calendar-grid .selected:before{content:'♡';position:absolute;font:54px/1 var(--serif);color:#d72831;inset:50% auto auto 50%;transform:translate(-50%,-48%)}.calendar-grid .selected{z-index:1}.calendar-grid .selected::after{content:'29';position:absolute;color:#c1272d}.calendar-options{background:#fff}.save-actions .button{max-width:330px;margin:auto}
+.location{background:#f8f5ee}.location-grid{background:#fff;border-color:#c3a55d66;box-shadow:0 18px 55px #59491814}.map{background:#ebe8df}.map iframe{filter:saturate(.55) sepia(.1)}.location-info>svg{color:#b58627}.location-info h3{color:#343331}.qr img{background:#fff;border-color:#c3a55d66}.location-share-actions{border-color:#c3a55d45}
+.closing{background:#fff!important;color:#30302f!important;min-height:720px;padding-right:45%;text-align:center}.closing:before{border-color:#c4a45a45}.closing-couple{right:3%;bottom:50%;transform:translateY(50%);width:min(40vw,560px);max-height:none;animation:wreath-float 8s ease-in-out infinite;filter:none}.closing>.italic,.closing>p:not(.italic):not(.monogram){color:#77736d}.closing h2,.closing h2 em{color:#b07819}.closing .monogram{color:#b58627}.contacts a{border-color:#b5862750}.floating-nav{background:#fffffff2;border-color:#c1a45c66;color:#48443e}.floating-nav a:hover{background:#f4ecd9}.audio-button{background:#fff;color:#b58627;border-color:#b58627}
+@keyframes wreath-float{50%{transform:translateY(-7px) rotate(.5deg)}}
+@media(max-width:900px){.hero{grid-template-columns:1fr;gap:30px;text-align:center}.hero:before{display:none}.hero-date{justify-content:center}.hero-art{width:min(620px,100%);margin:auto}.reception{grid-template-columns:1fr}.reception-heading{text-align:center;padding-top:0}.reception .section-marker,.reception-heading .ornament{justify-content:center}.save-date{grid-template-columns:1fr;text-align:center}.save-actions{margin:20px auto 0}.closing{padding-right:12%;padding-bottom:560px}.closing-couple{right:50%;bottom:20px;transform:translateX(50%);width:min(560px,90vw)}}
+@media(max-width:700px){.welcome{padding:12px}.welcome-frame{min-height:calc(100svh - 24px);padding:32px 20px}.welcome h1{font-size:40px}.hero{padding-top:48px}.couple h1{font-size:45px}.stationery-wreath{width:110%;margin-left:-5%}.wreath-copy{inset:20%}.wreath-copy strong{font-size:32px}.wreath-copy span{font-size:22px}.wreath-copy em{font-size:37px}.invitation-family{padding:32px 18px;margin-top:32px}.family-person h3{font-size:40px}.nikah{margin:0;padding-left:28px;padding-right:28px}.nikah h2{font-size:39px}.calendar-motif{padding:22px 18px}.calendar-title em{font-size:30px}.calendar-title span{font-size:26px}.calendar-grid span{font-size:12px}.location-info{padding:28px 18px}.closing{padding:70px 24px 400px}.closing-couple{width:360px}.floating-nav a{padding:11px 8px;font-size:8px}}
+@media(prefers-reduced-motion:reduce){.stationery-wreath>img,.closing-couple{animation:none!important}}
+
+/* Final typography corrections after the stationery conversion. */
+.welcome h1{font-size:clamp(38px,4.7vw,60px)!important;line-height:1.03!important;width:100%;max-width:720px!important;white-space:nowrap;text-shadow:none!important;word-spacing:.08em}
+.welcome h1 em{font-size:24px;margin:8px 0;white-space:normal}.welcome-date{color:#55514b!important;font-size:19px;margin:12px 0 14px}.welcome-frame:before{width:min(500px,82%);opacity:.14}.welcome .ornament{margin:14px auto}.welcome .seal{margin-top:2px}.welcome .small-note{color:#77736d}
+.hero .couple h1{font:400 clamp(48px,5vw,70px)/1.03 var(--serif)!important;color:#30302f!important;letter-spacing:-1px!important;text-shadow:none!important;max-width:580px}.hero .couple h1>span:last-child{font:clamp(64px,6.8vw,92px)/1.08 var(--script)!important;color:#b07819!important;text-shadow:none!important;margin-top:8px}.hero .couple-and{font-size:34px!important;color:#d1c29a!important;margin:5px 0!important}.hero:before{content:'INVITED';font-size:54px}.wreath-copy strong{text-shadow:none}
+@media(max-width:700px){.welcome h1{font-size:clamp(30px,9vw,43px)!important;white-space:normal}.welcome-frame:before{width:95%;opacity:.12}.hero .couple h1{font-size:44px!important}.hero .couple h1>span:last-child{font-size:70px!important}}
+.save-date h2,.reception h2{color:#30302f!important}.save-date p:not(.eyebrow){color:#77736d!important}.seal>span:last-child{color:#3d3933!important;position:relative;z-index:2}
+
+/* Reception-first hierarchy: Nikah is supporting information only. */
+.nikah-note{display:inline-block;margin:34px auto 0;padding-top:16px;border-top:1px solid #b7975748;color:#77736d;font:italic 16px/1.5 var(--serif);letter-spacing:.03em}
+.count-wrap{background:#e7efe9;border:1px solid #bdd0c2!important;padding:30px 24px!important;margin-top:4px;border-radius:2px}.count-wrap>.eyebrow{color:#426553!important}.countdown>div{background:transparent!important;border-color:#9bb5a455!important}.countdown span{color:#315d4c!important}.countdown small{color:#587565!important}
+.closing{min-height:auto!important;padding:100px max(12%,calc((100vw - 900px)/2)) 135px!important}.closing-floral,.closing-couple{display:none!important}
+@media(max-width:700px){.nikah-note{font-size:14px;margin-top:28px}.count-wrap{padding:24px 8px!important}.closing{padding:70px 24px 125px!important}}
+
+/* Couple names use one consistent calligraphy treatment. */
+.hero .couple h1,.hero .couple h1>span:last-child{font-family:var(--script)!important;font-style:normal!important;font-weight:400!important;color:#b07819!important;text-shadow:none!important;letter-spacing:0!important}
+.hero .couple h1{font-size:clamp(56px,6.2vw,84px)!important;line-height:1.02!important}
+.hero .couple h1>span:last-child{font-size:inherit!important;line-height:1.02!important;margin-top:8px}
+.hero .couple-and{font-family:var(--serif)!important;font-size:35px!important;color:#cbb987!important}
+@media(max-width:700px){.hero .couple h1,.hero .couple h1>span:last-child{font-size:clamp(48px,14vw,66px)!important}}
+
+/* Cinematic opening sequence */
+.welcome{animation:cinematic-backdrop 1.35s cubic-bezier(.22,1,.36,1) both;isolation:isolate}
+.welcome:after{content:'';display:block;position:absolute;inset:0;z-index:0;pointer-events:none;background:radial-gradient(circle at 50% 45%,transparent 25%,#4a3d2720 100%);animation:vignette-in 1.8s ease both}
+.welcome-frame:before{animation:wreath-reveal 1.8s .25s cubic-bezier(.22,1,.36,1) both}
+.welcome-frame:after{content:'';position:absolute;z-index:0;inset:10px;border:1px solid transparent;border-image:linear-gradient(115deg,transparent,#d7ba69,transparent) 1;opacity:0;animation:gold-glint 2.2s .45s ease both;pointer-events:none}
+.welcome-monogram,.welcome-frame>.eyebrow,.welcome .arabic,.welcome h1,.welcome .ornament,.welcome-date,.welcome .seal,.welcome .small-note{animation:cinematic-copy .9s cubic-bezier(.22,1,.36,1) both}
+.welcome-monogram{animation-delay:.3s}.welcome-frame>.eyebrow:first-of-type{animation-delay:.42s}.welcome .arabic{animation-delay:.54s}.welcome-frame>.eyebrow:nth-of-type(2){animation-delay:.66s}.welcome h1{animation-delay:.76s}.welcome .ornament{animation-delay:.9s}.welcome-date{animation-delay:1s}.welcome .seal{animation-delay:1.1s}.welcome .small-note{animation-delay:1.2s}
+.wax-seal{animation:seal-breathe 3.2s 2s ease-in-out infinite}
+@keyframes cinematic-backdrop{from{background-color:#d8d1c5}to{background-color:#ece8df}}
+@keyframes vignette-in{from{opacity:.8}to{opacity:1}}
+@keyframes wreath-reveal{from{opacity:0;transform:translate(-50%,-49%) scale(.78) rotate(-5deg);filter:blur(8px)}to{opacity:.14;transform:translate(-50%,-49%) scale(1) rotate(0);filter:blur(0)}}
+@keyframes cinematic-copy{from{opacity:0;transform:translateY(13px);filter:blur(3px)}to{opacity:1;transform:translateY(0);filter:blur(0)}}
+@keyframes gold-glint{0%{opacity:0}45%{opacity:.8}100%{opacity:.22}}
+@keyframes seal-breathe{50%{transform:scale(1.055);box-shadow:0 11px 27px #6e541f45,inset 0 0 0 4px #c99d24,inset 0 0 0 5px #f7d97880}}
+@media(prefers-reduced-motion:reduce){.welcome,.welcome:after,.welcome-frame:before,.welcome-frame:after,.welcome-monogram,.welcome-frame>.eyebrow,.welcome .arabic,.welcome h1,.welcome .ornament,.welcome-date,.welcome .seal,.welcome .small-note,.wax-seal{animation:none!important}}
+
+/* Unified stationery background across the site and auditorium panels. */
+html,body,.welcome,.section,.hero,.intro,.reception,.save-date,.location,.closing{background-color:#fffdf9!important}
+body{background:#fffdf9!important}.welcome{background-image:radial-gradient(circle at 50% 45%,#ffffff 0,#fffdf9 62%,#f4efe5 100%)!important}
+.masthead{background:#fffdf9!important}
+.event-card{background:#fffdf9!important;box-shadow:0 16px 44px #826d3510!important}
+.location-grid,.location-info,.calendar-motif{background:#fffdf9!important}
+.map{background:#f3f0e8!important}
+.reception,.location{border-color:#c6aa6545!important}
+
+/* Guided cinematic prologue for first-time and non-technical guests. */
+.cinematic-prologue{position:absolute;inset:0;z-index:8;display:grid;place-items:center;background:#17140f;color:#f2dfad;pointer-events:none;overflow:hidden;animation:prologue-away 3.1s cubic-bezier(.7,0,.3,1) forwards}
+.cinematic-prologue:before{content:'';position:absolute;inset:0;background:radial-gradient(circle at 50% 50%,#b58a3640 0,transparent 13%,#0000 28%);animation:first-light 2.7s ease-out both}
+.cinematic-prologue p{position:relative;margin:0;font:italic clamp(28px,4vw,48px)/1.2 var(--serif);letter-spacing:.04em;opacity:0;animation:prologue-copy 2.4s .35s ease both}
+.cinematic-prologue i{position:absolute;top:58%;left:50%;width:min(290px,55vw);height:1px;background:linear-gradient(90deg,transparent,#c59c49,transparent);transform:translateX(-50%) scaleX(0);animation:prologue-line 1.8s .65s ease both}
+.first-light{position:absolute;width:8px;height:8px;border-radius:50%;background:#f6d77e;box-shadow:0 0 35px 18px #e9ba5140;animation:light-pulse 2.3s ease both}
+.welcome .seal{width:min(390px,92%);margin:5px auto 0;padding:11px 18px 13px;gap:8px;border:1px solid #b88a2d80;border-radius:999px;background:#fffdf9e8;box-shadow:0 12px 35px #8b6d2720;transition:transform .3s,box-shadow .3s,background .3s}
+.welcome .seal:hover,.welcome .seal:focus-visible{background:#fff8e7;transform:translateY(-2px);box-shadow:0 16px 40px #8b6d2730}
+.welcome .seal .wax-seal{width:58px;height:58px;font-size:19px;margin-top:-40px}
+.welcome .seal>span:last-child{font-size:11px!important;font-weight:600;letter-spacing:1.6px;color:#6c511e!important}
+@keyframes first-light{0%{opacity:0;transform:scale(.2)}55%{opacity:1;transform:scale(1.35)}100%{opacity:.35;transform:scale(2.2)}}
+@keyframes light-pulse{0%{opacity:0;transform:scale(.2)}45%{opacity:1}100%{opacity:0;transform:scale(3)}}
+@keyframes prologue-copy{0%,12%{opacity:0;transform:translateY(9px);filter:blur(6px)}35%,72%{opacity:1;transform:none;filter:blur(0)}100%{opacity:0;transform:translateY(-7px);filter:blur(3px)}}
+@keyframes prologue-line{35%,75%{transform:translateX(-50%) scaleX(1)}100%{opacity:0;transform:translateX(-50%) scaleX(1)}}
+@keyframes prologue-away{0%,78%{opacity:1;visibility:visible}100%{opacity:0;visibility:hidden}}
+@media(max-width:700px){.welcome .seal{width:min(340px,96%);padding-left:12px;padding-right:12px}.welcome .seal>span:last-child{font-size:9px!important;letter-spacing:1.2px}.welcome .seal .wax-seal{width:54px;height:54px}}
+@media(prefers-reduced-motion:reduce){.cinematic-prologue{display:none!important}.welcome .seal .wax-seal{animation:none!important}}
+
+/* Keep the complete landing-page date clear of the opening control. */
+.welcome-date{position:relative;z-index:3;margin:14px 0 24px!important;white-space:nowrap}
+.welcome .seal{flex-direction:row!important;justify-content:center;min-height:76px;margin:0 auto!important;padding:8px 22px!important;gap:14px!important}
+.welcome .seal .wax-seal{flex:0 0 56px;width:56px;height:56px;margin:0!important}
+.welcome .seal>span:last-child{flex:0 1 auto;text-align:center}
+@media(max-width:700px){.welcome-date{margin-bottom:20px!important}.welcome .seal{min-height:70px;padding:7px 14px!important;gap:10px!important}.welcome .seal .wax-seal{flex-basis:50px;width:50px;height:50px}.welcome .seal>span:last-child{max-width:220px;line-height:1.45}}
+
+/* Ensure outlined venue actions remain readable on the ivory background. */
+.location-actions .button.outline,.location-share-actions .button.outline{color:#76591f!important;background:#fffdf9!important;border-color:#b88a2d!important;box-shadow:0 7px 20px #8b6d2712}
+.location-actions .button.outline:hover,.location-share-actions .button.outline:hover{color:#5e4516!important;background:#f8f0dc!important;border-color:#9d7220!important}
+.location-share-actions .button.outline svg,.location-actions .button.outline svg{color:currentColor!important}
+
+/* Cinematic storytelling continues through the invitation on scroll. */
+.section.is-revealed .section-marker{animation:cinematic-rise .8s ease both}
+.section.is-revealed .section-marker span,.section.is-revealed .ornament span{transform-origin:center;animation:gold-line-draw 1.25s .2s cubic-bezier(.22,1,.36,1) both}
+.hero.is-revealed .hero-copy>*{animation:cinematic-rise .85s cubic-bezier(.22,1,.36,1) both}
+.hero.is-revealed .hero-copy>*:nth-child(2){animation-delay:.08s}.hero.is-revealed .hero-copy>*:nth-child(3){animation-delay:.16s}.hero.is-revealed .hero-copy>*:nth-child(4){animation-delay:.24s}.hero.is-revealed .hero-copy>*:nth-child(5){animation-delay:.32s}.hero.is-revealed .hero-copy>*:nth-child(6){animation-delay:.4s}.hero.is-revealed .hero-copy>*:nth-child(7){animation-delay:.48s}
+.hero.is-revealed .stationery-wreath{animation:wreath-camera-in 1.35s .12s cubic-bezier(.22,1,.36,1) both}.hero.is-revealed .wreath-copy>*{animation:gold-writing .85s cubic-bezier(.22,1,.36,1) both}.hero.is-revealed .wreath-copy>*:nth-child(2){animation-delay:.34s}.hero.is-revealed .wreath-copy>*:nth-child(3){animation-delay:.48s}.hero.is-revealed .wreath-copy>*:nth-child(4){animation-delay:.62s}
+.intro.is-revealed>.arabic,.intro.is-revealed>.italic,.intro.is-revealed>.hosts,.intro.is-revealed>.address,.intro.is-revealed>.invitation-copy{animation:cinematic-rise .8s cubic-bezier(.22,1,.36,1) both}.intro.is-revealed>.italic{animation-delay:.08s}.intro.is-revealed>.hosts{animation-delay:.16s}.intro.is-revealed>.address{animation-delay:.24s}.intro.is-revealed>.invitation-copy{animation-delay:.32s}
+.intro.is-revealed .invitation-family{animation:paper-card-open 1s .3s cubic-bezier(.22,1,.36,1) both}.intro.is-revealed .family-person:first-child{animation:cinematic-left .9s .5s both}.intro.is-revealed .family-person:last-child{animation:cinematic-right .9s .62s both}.intro.is-revealed .nikah-note{animation:cinematic-rise .7s .82s both}
+.reception.is-revealed .reception-heading{animation:cinematic-left .95s cubic-bezier(.22,1,.36,1) both}.reception.is-revealed .event-card{animation:paper-card-open 1.05s .16s cubic-bezier(.22,1,.36,1) both}.reception.is-revealed .event-card:after{content:'';position:absolute;inset:0;pointer-events:none;background:linear-gradient(105deg,transparent 38%,#e1c16f35 49%,transparent 60%);transform:translateX(-120%);animation:gold-sweep 1.6s .8s ease both}.reception.is-revealed .count-wrap{animation:cinematic-rise .9s .42s both}
+.save-date.is-revealed>div:first-child{animation:cinematic-left .9s both}.save-date.is-revealed .calendar-motif{animation:calendar-unfold 1s .15s cubic-bezier(.22,1,.36,1) both}.save-date.is-revealed .calendar-grid span{animation:calendar-number-in .42s cubic-bezier(.22,1,.36,1) both}.save-date.is-revealed .calendar-grid .selected:before{animation:heart-draw .8s 1.35s ease both}.save-date.is-revealed .calendar-picker,.save-date.is-revealed .small-note{animation:cinematic-rise .7s 1.25s both}
+.location.is-revealed>h2,.location.is-revealed>.eyebrow{animation:cinematic-rise .8s both}.location.is-revealed .map{animation:cinematic-left 1s .15s cubic-bezier(.22,1,.36,1) both}.location.is-revealed .location-info{animation:cinematic-right 1s .25s cubic-bezier(.22,1,.36,1) both}.location.is-revealed .qr{animation:qr-focus .8s .75s both}.location.is-revealed .location-share-actions{animation:cinematic-rise .7s .95s both}
+.closing.is-revealed>*{animation:cinematic-rise .8s cubic-bezier(.22,1,.36,1) both}.closing.is-revealed>*:nth-child(2){animation-delay:.08s}.closing.is-revealed>*:nth-child(3){animation-delay:.16s}.closing.is-revealed>*:nth-child(4){animation-delay:.24s}.closing.is-revealed>*:nth-child(5){animation-delay:.32s}.closing.is-revealed>*:nth-child(6){animation-delay:.4s}.closing.is-revealed>*:nth-child(7){animation-delay:.48s}
+.button svg{transition:transform .35s ease}.button:hover svg{transform:translateY(-2px) scale(1.05)}
+@keyframes cinematic-rise{from{opacity:0;transform:translateY(24px);filter:blur(3px)}to{opacity:1;transform:none;filter:blur(0)}}
+@keyframes cinematic-left{from{opacity:0;transform:translateX(-32px);filter:blur(3px)}to{opacity:1;transform:none;filter:blur(0)}}
+@keyframes cinematic-right{from{opacity:0;transform:translateX(32px);filter:blur(3px)}to{opacity:1;transform:none;filter:blur(0)}}
+@keyframes gold-line-draw{from{opacity:0;transform:scaleX(0)}to{opacity:1;transform:scaleX(1)}}
+@keyframes wreath-camera-in{from{opacity:0;transform:scale(.86);filter:blur(8px)}to{opacity:1;transform:scale(1);filter:blur(0)}}
+@keyframes gold-writing{from{opacity:0;clip-path:inset(0 100% 0 0)}to{opacity:1;clip-path:inset(0)}}
+@keyframes paper-card-open{from{opacity:0;transform:perspective(1100px) rotateX(7deg) translateY(30px);box-shadow:0 4px 12px #51431e08}to{opacity:1;transform:none}}
+@keyframes gold-sweep{to{transform:translateX(120%)}}
+@keyframes calendar-unfold{from{opacity:0;transform:perspective(900px) rotateX(-8deg) scale(.97);transform-origin:top}to{opacity:1;transform:none}}
+@keyframes calendar-number-in{from{opacity:0;transform:translateY(7px) scale(.9)}to{opacity:1;transform:none}}
+@keyframes heart-draw{from{opacity:0;transform:translate(-50%,-48%) scale(.45) rotate(-12deg)}to{opacity:1;transform:translate(-50%,-48%) scale(1) rotate(0)}}
+@keyframes qr-focus{from{opacity:0;transform:scale(.86);filter:blur(4px)}to{opacity:1;transform:scale(1);filter:blur(0)}}
+@media(prefers-reduced-motion:reduce){.section.is-revealed *,.section.is-revealed *:before,.section.is-revealed *:after{animation:none!important;transition:none!important}}
+
+/* Venue heading contrast on the unified ivory section. */
+.location>h2{color:#292929!important;opacity:1!important;visibility:visible!important;text-shadow:none!important}
+.location>.eyebrow{color:#8d6c2b!important;opacity:1!important;visibility:visible!important}
+
+/* Keep host and family addresses readable on the ivory invitation paper. */
+.intro>.address{color:#68635c!important;opacity:1!important;visibility:visible!important;text-shadow:none!important}
+.intro .family-relation,.intro .family-address,.intro .family-and{color:#77736d!important}
